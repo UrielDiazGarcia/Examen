@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "726775622756",
+    "firebase_url": "https://examenuriel.firebaseio.com",
+    "project_id": "examenuriel",
+    "storage_bucket": "examenuriel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726775622756:android:77a4357d04195ee2",
+        "android_client_info": {
+          "package_name": "io.ionic.starterExam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQStVc9IyGncs2QL7QnNuy6Zd23KEGWKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726775622756-q3kq1hbkn220fb8g8p7inhddemejmn35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

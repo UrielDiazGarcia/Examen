@@ -1,14 +1,25 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar [color]="primary">
     <ion-title>
-      Ionic Blank
+      Repositorios
     </ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <h3>Repositorio1: </h3>
+  <p>{{ Repositorio1 }}</p>
+  <h3>Descripcion: </h3>
+  <p>{{ Descripcion }}</p>
+
+  <ion-button color="primary"
+            (click)="save()">
+              Guardar cambios
+  </ion-button>
+
+  <ion-button color="Secondary"
+            (click)="consulta()">
+              Consultar repositorio
+  </ion-button>
+
 </ion-content>
